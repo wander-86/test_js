@@ -2,7 +2,7 @@
  * @param human = {name: string, spouse: Human, phone: string}
  * @constructor
  */
-Human = function(human) {
+var Human = function(human) {
     this.name   = !human.name ? '' : human.name;
     this.spouse = !human.spouse ? false : human.spouse;
     this.phone  = !human.phone ? '' : human.phone;
